@@ -29,8 +29,6 @@ qt-config.ini
 
 This happens on **every launch**, ensuring the correct device GUIDs are always active.
 
----
-
 </details>
 
 ---
