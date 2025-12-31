@@ -10,7 +10,7 @@ emuName="citron"
 # ============================================================
 
 # --- Persistent log ---
-LOG="$HOME/.local/state/citron-wrapper.log"
+LOG="$HOME/.local/state/citron-wrap.log"
 mkdir -p "$(dirname "$LOG")"
 
 # --- Log rotate (keep log from growing forever) ---
