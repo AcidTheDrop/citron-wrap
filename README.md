@@ -103,7 +103,7 @@ cat ~/.local/state/citron-wrapper.log
 ```
 </details>
 <details>
-<summary><h3>🔄 Undoing the wrapper</h3></summary>
+<summary><h3>🔄 How to Undo</h3></summary>
 
 
 
