@@ -63,13 +63,13 @@ cp qt-config.ini qt-config.gamemode.ini
 
 ---
 
-### 3️⃣ Install citron-wrapper.sh (ES-DE custom launcher)
+### 3️⃣ Install citron-wrap.sh (ES-DE custom launcher)
 
 Copy the wrapper into EmuDeck’s launchers folder and make it executable:
 
 ```bash
-cp citron-wrapper.sh ~/Emulation/tools/launchers/citron-wrapper.sh
-chmod +x ~/Emulation/tools/launchers/citron-wrapper.sh
+cp citron-wrap.sh ~/Emulation/tools/launchers/citron-wrap.sh
+chmod +x ~/Emulation/tools/launchers/citron-wrap.sh
 ```
 
 Open ES-DE’s custom systems file:
@@ -81,7 +81,7 @@ Open ES-DE’s custom systems file:
 Update the Citron command to:
 
 ```xml
-<command label="Citron (Standalone)">/home/deck/Emulation/tools/launchers/citron-wrapper.sh -f -g %ROM%</command>
+<command label="Citron (Standalone)">/home/deck/Emulation/tools/launchers/citron-wrap.sh -f -g %ROM%</command>
 ```
 
 <details>
@@ -92,14 +92,14 @@ Update the Citron command to:
 The wrapper writes a debug log on every launch:
 
 ```
-$HOME/.local/state/citron-wrapper.log
+$HOME/.local/state/citron-wrap.log
 ```
 
 If something isn’t working, check this file first:
 
 ```
 bash
-cat ~/.local/state/citron-wrapper.log
+cat ~/.local/state/citron-wrap.log
 ```
 </details>
 <details>
