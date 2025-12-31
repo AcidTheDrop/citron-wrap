@@ -1,4 +1,4 @@
-# 🎮 citron-wrapper
+# 🎮 citron-wrap
 
 > Seamless controller configs for Citron on Steam Deck — no more re-binding every time you switch modes.
 
