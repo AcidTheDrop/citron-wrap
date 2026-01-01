@@ -84,6 +84,8 @@ Update the Citron command to:
 ```xml
 <command label="Citron (Standalone)">~/Emulation/tools/launchers/citron-wrap.sh -f -g %ROM%</command>
 ```
+That's it! You're good to go now. 
+When you launch a switch game from ES-DE "citron-wrap.sh" gets called instead of "citron.sh" (leave "citron.sh" where it is). The steamdeck mode is detected in the wrapper and the contents of "qt-config.ini" get swapped out for either "qt-config.desktop.ini" or "qt-config.gamemode.ini" (One of the 2 config files you manually created in steps 1-2). 
 
 <details>
 <summary><h3>📝 Log file</h3></summary>
