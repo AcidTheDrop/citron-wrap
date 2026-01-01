@@ -64,9 +64,9 @@ cp qt-config.ini qt-config.gamemode.ini
 ---
 
 ### 3️⃣ Install citron-wrap.sh (ES-DE custom launcher)
+> 💡 **Tip:** Your paths here may vary depending on where you chose to install your EmuDeck directory during setup.
 
 Copy the wrapper into EmuDeck’s launchers folder and make it executable:
-> 💡 **Tip:** Your path here may vary depending on where you chose to install your EmuDeck directory during setup.
 
 ```bash
 cp citron-wrap.sh ~/Emulation/tools/launchers/citron-wrap.sh
