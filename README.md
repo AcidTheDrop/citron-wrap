@@ -1,6 +1,6 @@
 # 🎮 citron-wrap
 
-> Seamless controller config swapper for Citron on Steam Deck — no more re-binding every time you switch modes.
+> Controller config swapper for Citron on Steam Deck — no more re-binding every time you switch modes.
 
 ---
 
