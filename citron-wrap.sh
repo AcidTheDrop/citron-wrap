@@ -136,7 +136,7 @@ exitCode=$?
 
 echo "Citron exit code: $exitCode" >> "$LOG" 2>&1
 
-# EmuDeck housekeeping (guarded)
+# EmuDeck housekeeping
 if command -v cloud_sync_uploadForced >/dev/null 2>&1; then
   cloud_sync_uploadForced >> "$LOG" 2>&1
 fi
